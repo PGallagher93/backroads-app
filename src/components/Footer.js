@@ -1,4 +1,7 @@
-<footer className="section footer">
+
+const Footer = () => {
+  return (
+    <footer className="section footer">
 <ul className="footer-links">
   <li>
     <a href="#home" className="footer-link">home</a>
@@ -35,3 +38,7 @@
   <span id="date"></span> all rights reserved
 </p>
 </footer>
+  )
+}
+
+export default Footer
